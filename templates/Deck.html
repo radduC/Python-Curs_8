@@ -1,0 +1,13 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pachet de carti</title>
+</head>
+<body>
+    {{ deck.cards }}
+    {% for card in deck.cards %}
+        {{card}}
+    {% endfor %}
+</body>
+</html>
